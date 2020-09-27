@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "673981273837",
+    "firebase_url": "https://theegybest-dz-38afa.firebaseio.com",
+    "project_id": "theegybest-dz-38afa",
+    "storage_bucket": "theegybest-dz-38afa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673981273837:android:5808cf1310ba7939f45ee4",
+        "android_client_info": {
+          "package_name": "com.mawsome20.aflam20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673981273837-r1dple02pinieag4pdco9mka16j5q842.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mawsome20.aflam20",
+            "certificate_hash": "e50f5886d3508426e14bfc9e2d47a3bfc3f6234e"
+          }
+        },
+        {
+          "client_id": "673981273837-6ob3c4sah800kom0jlasd4tc327fkphl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHYZ171FeMfBpW6K-1W8d0j5fUmOo7pM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673981273837-6ob3c4sah800kom0jlasd4tc327fkphl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Innovattic:range-seek-bar:v1.0.6@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fd1e43335a464f999cd7b8925d30284/range-seek-bar-v1.0.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fd1e43335a464f999cd7b8925d30284/range-seek-bar-v1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fd1e43335a464f999cd7b8925d30284/range-seek-bar-v1.0.6/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Innovattic/range-seek-bar/v1.0.6/183907a912053f7bca8f72369b0a230a9da87a76/range-seek-bar-v1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

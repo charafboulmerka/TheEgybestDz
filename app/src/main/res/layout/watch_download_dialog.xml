@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_report_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp">
+        <ProgressBar
+            android:id="@+id/dialog_progress_bar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/red_600"
+            android:layout_gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_mlarge">
+
+
+            <TextView
+                android:id="@+id/dialog_go_close"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:textColor="@color/white"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/dialog_go_watch_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:background="@drawable/orange_btn_effects"
+                android:text="مشـاهـدة"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/dialog_go_download_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:background="@drawable/red_btn_effects"
+                android:text="تـحـمـيل"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/adView"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</FrameLayout>

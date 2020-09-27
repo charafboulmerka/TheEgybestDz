@@ -1,0 +1,388 @@
+<resources>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+
+    <string name="limit_fc_data">10</string>
+    <string name="facebook_application_id" translatable="false">567557040862349</string>
+
+    <string name="facebook_login_protocol_scheme" translatable="false">fb567557040862349</string>
+    <!--admob-->
+    <string name="admob_application_id" translatable="false">ca-app-pub-7859085277476660~7765992266</string>
+    <!--startapp-->
+    <string name="startapp_id">204959933</string>
+
+    <string name="inmobi_account_id">b974871c64eb41e4bf37763df706da38</string>
+    <!--Banner ID I need to add it manually to  inmobi_banner.xml-->
+    <string name="inmobi_banner">plid-1592454575238</string>
+    <!--FullPage ID I need to add it manually to PopUpAds.java-->
+    <string name="inmobi_fullpage">1593723218210L</string>
+
+    <string name="adfalcon_site_id">cc65e4e74b174e988760f77c2517405d</string>
+
+    <string name="app_name">The EgyBest</string>
+
+    <!--app_title for main navigation & home title-->
+    <string name="app_title">ذا ايجي باست</string>
+
+    <string name="app_version">1.5.3</string>
+
+    <string name="contact_email">the.egy.best@gmail.com</string>
+
+    <string name="copyright_text">كل الحقوق محفوظة </string>
+
+    <!-- App -->
+
+
+    <string name="latest_movie">آخر الأفلام</string>
+
+    <string name="latest_tv_series">آخر المسلسلات  </string>
+
+    <string name="more">المزيد</string>
+
+    <string name="movie">الأفلام</string>
+
+    <string name="live_tv">بث مباشر</string>
+    <string name="series">المسلسلات</string>
+
+    <string name="tv_series">مسلسلات</string>
+
+    <string name="country">القسم</string>
+
+    <string name="genre">النوع</string>
+
+    <string name="favorite">المفضلة</string>
+
+    <string name="search">بحث</string>
+
+    <string name="no_item_found">لم يتم العثور على أي عنصر</string>
+
+    <string name="cast_n_crew">الممثلين و فريق العمل</string>
+
+    <string name="signin">تسجيل الدخول</string>
+
+    <string name="reset">تغيير كلمة السر</string>
+
+    <string name="register">إنشاء حساب جديد</string>
+
+    <string name="full_name">الاسم الكامل </string>
+
+    <string name="email">البريد الالكتروني</string>
+
+    <string name="password">كلمة السر</string>
+
+    <string name="save">حفظ</string>
+
+    <string name="director">المخرج :</string>
+
+    <string name="comments">التعليقات</string>
+
+    <string name="your_comments">تعليقاتك</string>
+
+    <string name="add_comments">أضف تعليقا </string>
+
+    <string name="no_internet">!أنت غير متصل بالانترنيت</string>
+
+    <string name="copyright">حقوق النشر</string>
+
+    <string name="contact_us">تواصل معنا</string>
+
+    <string name="fetch_error">لم نستطع الحصول على البيانات</string>
+
+    <string name="login_first">يجب عليك تسجيل الدخول أولا</string>
+
+    <string name="comment_empty">التعليق لا يمكن أن يكون فارغا</string>
+
+    <string name="error_toast">حدث مشكل ما</string>
+    <string name="no_result_found">لم يتم العثور على اي نتائج</string>
+
+
+    <string-array name="nav_item_name">
+
+        <item>الرئيسية</item>
+
+        <item>الأفلام</item>
+
+        <item>المسلسلات</item>
+
+        <item>النوع</item>
+
+        <item>الأقسام</item>
+
+        <item>الملف الشخصي</item>
+
+        <item>تبليغ / طلب إضافة فيلم</item>
+
+
+      <!--  <item>التحميلات</item>-->
+
+        <item>الاعدادات</item>
+
+        <item>الخروج</item>
+
+    </string-array>
+
+
+    -
+    <string-array name="nav_item_image">
+
+        <item>outline_home_24</item>
+
+        <item>outline_movie_24</item>
+
+        <item>outline_local_movies_24</item>
+
+
+        <item>outline_folder_24</item>
+
+        <item>outline_outlined_flag_24</item>
+
+        <item>outline_person_24</item>
+
+        <item>outline_error_24</item>
+
+
+    <!--   <item>ic_file_download_black_24dp</item> -->
+
+      <item>outline_settings_24</item>
+
+      <item>outline_lock_24</item>
+
+  </string-array>
+
+
+  -
+  <string-array name="nav_item_name_2">
+
+      <item>الرئيسية</item>
+
+      <item>الأفلام</item>
+
+      <item>المسلسلات</item>
+
+      <item>النوع</item>
+
+      <item>الأقسام</item>
+
+      <item>تسجيل الدخول</item>
+
+      <item>الإعدادات</item>
+
+      <item>تبليغ / طلب إضافة فيلم</item>
+
+  </string-array>
+
+
+  -
+  <string-array name="nav_item_image_2">
+
+      <item>outline_home_24</item>
+
+      <item>outline_movie_24</item>
+
+      <item>outline_local_movies_24</item>
+
+
+      <item>outline_folder_24</item>
+
+      <item>outline_outlined_flag_24</item>
+
+      <item>outline_lock_24</item>
+
+      <item>outline_settings_24</item>
+
+      <item>outline_error_24</item>
+
+  </string-array>
+
+  <!-- payment related to Settings -->
+
+
+    <!--PayPal accepted currency-->
+
+
+    <!--search range-->
+
+
+    <string name="year_range_start">1900</string>
+
+    <string name="year_range_end">2020</string>
+
+    <!-- Example General settings -->
+
+
+    <!-- Example settings for Data & Sync -->
+
+
+    <!-- Example settings for Notifications -->
+
+
+    <string name="title_activity_item_show">عملية عرض العناصر </string>
+
+    <string name="title_activity_details">عملية خاصة بالتفاصيل</string>
+
+    <string name="title_activity_reply">عملية الرد </string>
+
+    <string name="program_guide">دليل البرنامج</string>
+
+    <string name="live">مباشر</string>
+
+    <string name="you_may_also_like">قد تعجبك أيضا</string>
+
+    <string name="dark_mode">الوضع الليلي</string>
+
+    <string name="tv_channels">القنوات التلفزيونية</string>
+
+    <string name="watching_catch_up_tv">مشاهدة البث غير المباشر</string>
+
+    <string name="deactive_account_text">إذا كنت لا تريد استعمال هذا الحساب يمكنك تعطيله بسهولة </string>
+
+    <string name="reason_to_deactivate_account">سبب تعطيل الحساب</string>
+
+    <string name="enter_password">أدخل كلمة السر</string>
+
+
+    <string name="deactivate_account">تعطيل الحساب </string>
+
+    <string name="explore_by_genre">استكشاف حسب النوع</string>
+
+    <string name="explore_by_country">استكشاف حسب القسم</string>
+
+    <string name="share_this_app">شارك التطبيق</string>
+
+    <string name="share_body">أريد أن أشارك معكم هذا التطبيق, لمشاهدة و تحميل اجدد الأفلام و المسلسلات </string>
+
+    <string name="accept">قبول</string>
+
+    <string name="decline">رفض</string>
+
+
+    -
+    <string name="account_deactivate_info">
+
+-<![CDATA[.سيتم تعطيل حسابك و الأدمين فقط هو من يمكنه إعادة تفعيله]]>
+</string>
+
+    <string name="regular_program">البرنامج العادي </string>
+
+    <string name="international">عالمي</string>
+
+    <string name="server">سيرفير</string>
+
+    <string name="_1080p">1080P</string>
+
+    <string name="dummy_name">Jhon Doe</string>
+
+    <string name="notifications">الإشعارات</string>
+
+    <string name="push_notification">تفعيل الإشعارات"</string>
+
+    <string name="others">أخرى</string>
+
+
+    -
+
+    <string name="something_went_wrong">حصل خطأ ما الرجاء إعادة المحاولة </string>
+
+    <string name="card_number">رقم البطاقة </string>
+
+    <string name="downloading">جاري التحميل </string>
+
+    <string name="download_completed">تم التحميل بنجاح </string>
+
+    <string name="watch_now">شاهد الآن</string>
+
+    <string name="download">تحميل</string>
+
+    <string name="select_server">اختر السيرفر </string>
+
+    <string name="home"> الرئيسية</string>
+
+    <string name="download_appear_text">سيظهر العنصر الذي تم تحميله هنا. لا يمكن إيجاد العنصر الذي تم تحميله </string>
+
+    <string name="send">أرسل </string>
+
+    <string name="searcHError_message">العنوان أو النوع لا يمكن أن يكون فارغا </string>
+
+    <string name="external_download_links">روابط التحميل الخارجية </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment">جزء فارغ للترحيب </string>
+
+    <!-- dialog instruction -->
+
+
+    <string name="type_keyword">أدخل كلمة مفتاحية </string>
+
+    <string name="year_range">مجال السنوات </string>
+
+    <string name="cancel">إلغاء</string>
+
+    <string name="tv_category">فئة التلفاز </string>
+
+    <string name="email_address">البريد الالكتروني </string>
+
+    <string name="all_countries">كل الأقسام</string>
+
+    <string name="all_categories">كل الفئات </string>
+
+    <string name="external_download"> تحميل خارجي</string>
+
+    <string name="inApp_download">تحميل محلي (داخل التطبيق)</string>
+
+    <string name="all_genres">كل الأنواع </string>
+
+    <string name="download_not_permitted">يجب عليك تسجيل الدخول لتتمكن من تحميل هذا الفيديو </string>
+
+    <string name="file_already_downloaded">ملف تم تحميله مسبقا </string>
+
+    <string name="file_not_found">لم يتم العثور على الملف </string>
+
+    <string name="phone_number_with_country_code">رقم الهاتف (مع رمز البلد)</string>
+
+    <string name="male">ذكر</string>
+
+    <string name="no_download_server_found">لم يتم العثور على أي رابط للتحميل</string>
+
+    <string name="no_video_found">لم يتم العثور على أي فيديو </string>
+
+    <string name="failed_to_communicate">فشل الإتصال بسيرفر يرجب تفقد إتصالك بالأنترنت و إعادة المحاولة</string>
+
+    <string name="no_configuration_data_found">لم يتم العثور على أي إعدادات</string>
+
+
+    <string name="terms_and_policies"><![CDATA[الشروط و سياسة الإستخدام]]></string>
+
+
+    <string name="version_string">الإصدار </string>
+
+    <string-array name="report_types_array">
+        <item>طلب إضافة فيلم او مسلسل</item>
+        <item>تبليغ عن فيلم او مسلسل</item>
+        <item>تبليغ عن مشكلة في التطبيق</item>
+        <item>إضافة إقتـراح</item>
+
+    </string-array>
+
+
+
+    <string name="terms_condition_text">
+        للمشاهدة و التحميل استخدم الأزرار بجانب الفيلم او بالضغط على صورة الفيلم
+\n\n
+يمكنك طلب فلمك او مسلسلك المفضل من قسم الطلبات
+
+\n\n
+اذا واجهت مشكلة في التطبيق الرجاء التبليغ عنها ليتم تصحيحها في التحديث القادم
+\n\n
+في حالة وجدت رابط لا يعمل على المشغل الإعتيادي ننصحك بإستخدام VLC PLAYER
+\n\n
+يمكنك إيجاد معلومات التواصل و رابط صفحتنا فيس بوك و إنستغرام في قسم الإعدادات
+\n\n
+نتمنى لكم مشاهدة ممتعة و سوف نسعى لتقديم الأفضل في كل تحديث ^^
+\n\n
+بضغطك على زر موافق انت توافق على سياسة خصوصية التطبيق
+</string>
+
+
+</resources>

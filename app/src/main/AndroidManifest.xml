@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mawsome20.aflam20"
+    tools:ignore="MissingLeanbackLauncher">
+
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR"  />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"  />
+
+    <!--android:hardwareAccelerated="true"-->
+
+    <application
+        android:name="com.mawsome20.aflam20.utils.MyAppClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.startapp.sdk.RETURN_ADS_ENABLED"
+            android:value="false" />
+
+        <activity android:name="com.mawsome20.aflam20.SearchActivity" />
+        <activity android:name="com.mawsome20.aflam20.FirebaseSignUpActivity" />
+
+
+        <activity
+            android:name="com.mawsome20.aflam20.WebViewActivity" />
+        <meta-data
+            android:name="firebase_performance_logcat_enabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_application_id" />
+        <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID"
+            android:value="@string/startapp_id" />
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+        <meta-data
+            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+            android:value="com.google.android.exoplayer2.ext.cast.DefaultCastOptionsProvider" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_application_id" />
+
+        <activity
+            android:name="com.mawsome20.aflam20.TermsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Nobar" />
+        <activity
+            android:name="com.mawsome20.aflam20.ReplyActivity"
+            android:label="@string/title_activity_reply"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mawsome20.aflam20.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Nobar" />
+        <activity
+            android:name="com.mawsome20.aflam20.PassResetActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Nobar" />
+        <activity
+            android:name="com.mawsome20.aflam20.SignUpActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:theme="@style/AppTheme.Nobar" />
+        <activity
+            android:name="com.mawsome20.aflam20.LoginActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:theme="@style/AppTheme.Nobar" />
+        <activity
+            android:name="com.mawsome20.aflam20.DetailsActivity"
+            android:configChanges= 	"keyboard|keyboardHidden|orientation|uiMode|screenLayout|screenSize|smallestScreenSize"
+            android:label="@string/title_activity_details"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- android:configChanges="screenLayout|screenSize|orientation" -->
+        <activity
+            android:name="com.mawsome20.aflam20.MainActivity"
+            android:configChanges= 	"keyboard|keyboardHidden|orientation|uiMode|screenLayout|screenSize|smallestScreenSize"
+            android:theme="@style/AppTheme.Nobar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.mawsome20.aflam20.SettingsActivity"
+            android:theme="@style/AppTheme.Nobar" />
+        <activity
+            android:name="com.mawsome20.aflam20.SplashScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mawsome20.aflam20.itemByGenreAndCategory"
+            android:label="@string/title_activity_item_show"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <!-- StartApp activities integration -->
+        <activity
+            android:name="com.startapp.android.publish.ads.list3d.List3DActivity"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.startapp.android.publish.adsCommon.activities.OverlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.startapp.android.publish.adsCommon.activities.FullScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme" />
+
+        <service android:name="com.startapp.android.publish.common.metaData.PeriodicMetaDataService" />
+        <service android:name="com.startapp.android.publish.common.metaData.InfoEventService" />
+        <service
+            android:name="com.startapp.android.publish.common.metaData.PeriodicJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver android:name="com.startapp.android.publish.common.metaData.BootCompleteListener">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+
+        <!-- StartApp SDK 4  integration -->
+
+        <!--
+
+                <provider
+                    android:name="com.startapp.sdk.adsbase.StartAppInitProvider"
+                    android:authorities="${applicationId}.startappinitprovider"
+                    android:exported="false" />
+
+
+
+                <activity
+                    android:name="com.startapp.sdk.ads.list3d.List3DActivity"
+                    android:theme="@android:style/Theme"/>
+
+                <activity
+                    android:name="com.startapp.sdk.adsbase.activities.OverlayActivity"
+                    android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+                    android:theme="@android:style/Theme.Translucent"/>
+
+                <activity
+                    android:name="com.startapp.sdk.adsbase.activities.FullScreenActivity"
+                    android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+                    android:theme="@android:style/Theme"/>
+
+                <service android:name="com.startapp.sdk.adsbase.InfoEventService" />
+
+                <service
+                    android:name="com.startapp.sdk.adsbase.PeriodicJobService"
+                    android:permission="android.permission.BIND_JOB_SERVICE" />
+
+                <receiver android:name="com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener">
+                    <intent-filter>
+                        <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                    </intent-filter>
+                </receiver>
+                -->
+
+        <provider android:authorities="com.facebook.app.FacebookContentProvider1234"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true" />
+    </application>
+
+</manifest>

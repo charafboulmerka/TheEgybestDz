@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.ReportsFragment">
+
+
+
+    <RelativeLayout
+        android:layout_below="@+id/shimmer_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/adView">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_marginTop="70dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/background_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:background="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    android:padding="@dimen/spacing_mlarge">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:minWidth="220dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/linear_layout_spinner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_rounded_light"
+                            android:ems="10"
+                            android:padding="1dp"
+                            android:layout_gravity="center|right"
+                            android:gravity="center|right"
+                            android:minHeight="20dp"
+                            android:orientation="vertical">
+
+                            <Spinner
+                                android:id="@+id/report_spinner"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textAlignment="center"
+                                android:padding="5dp"
+                                android:gravity="center" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <include layout="@layout/startapp_banner"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="يمكنك إضافة ملاحظاتك او طلباتك و سوف نعالجها في أقرب وقت"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card_report_issue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/spacing_middle"
+                        android:visibility="gone"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/spacing_mlarge">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="@dimen/spacing_xlarge"
+                                android:layout_marginTop="@dimen/spacing_middle"
+                                android:text="تبليغ عن خطأ او مشكلة"
+                                android:textAllCaps="true"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/text_report_issue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="الرجاء توضيح تفاصيل التبليغ"
+                                    android:inputType="text|textMultiLine"
+                                    android:minHeight="90dp" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                            <Button
+                                android:id="@+id/btn_report_issue"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/spacing_large"
+                                android:background="@drawable/orange_btn_effects"
+                                android:text="إرســال التـبـلـيغ"
+                                android:textAllCaps="true"
+                                android:textColor="@android:color/white" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card_report_suggestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/spacing_middle"
+                        android:visibility="gone"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/spacing_mlarge">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="@dimen/spacing_xlarge"
+                                android:layout_marginTop="@dimen/spacing_middle"
+                                android:text="إضــافة إقـتـراح"
+                                android:textAllCaps="true"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/text_suggestion"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="ما هو إقتراحك ؟ وشكرا مسبقا."
+                                    android:inputType="text|textMultiLine"
+                                    android:minHeight="90dp" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                            <Button
+                                android:id="@+id/btn_sugesstion"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/spacing_large"
+                                android:background="@drawable/orange_btn_effects"
+                                android:text="إرســال الإقتراح"
+                                android:textAllCaps="true"
+                                android:textColor="@android:color/white" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card_report_movie"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/spacing_middle"
+                        android:visibility="gone"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/spacing_mlarge">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="@dimen/spacing_xlarge"
+                                android:layout_marginTop="@dimen/spacing_middle"
+                                android:text="التبليغ عن خلل في فيلم او مسلسل"
+                                android:textAllCaps="true"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/text_report_movie_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="إسم الفيلم او المسلسل"
+                                    android:inputType="text|textMultiLine"
+                                    android:singleLine="true" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/text_report_movie_description"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="تفاصيل التبليغ"
+                                    android:inputType="text|textMultiLine|textLongMessage"
+                                    android:minHeight="80dp" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                            <Button
+                                android:id="@+id/btn_report_movie"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/spacing_large"
+                                android:background="@drawable/orange_btn_effects"
+                                android:text="إرســال التـبـلـيغ"
+                                android:textAllCaps="true"
+                                android:textColor="@android:color/white" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card_request_add"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/spacing_middle"
+                        android:visibility="visible"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/spacing_mlarge">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="@dimen/spacing_xlarge"
+                                android:layout_marginTop="@dimen/spacing_middle"
+                                android:text="طلب إضافة فيلم او مسلسل"
+                                android:textAllCaps="true"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/text_request_add_movie_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="إسم الفيلم او المسلسل"
+                                    android:inputType="text|textMultiLine"
+                                    android:singleLine="true" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+                            <Button
+                                android:id="@+id/btn_request_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/spacing_large"
+                                android:background="@drawable/orange_btn_effects"
+                                android:text="إرســال الطـلـب"
+                                android:textAllCaps="true"
+                                android:textColor="@android:color/white" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/spacing_large" />
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:id="@+id/search_root_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:fitsSystemWindows="true"
+                >
+
+                <include
+                    android:id="@+id/search_bar"
+                    layout="@layout/toolbar" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/adView"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|center"
+        layout="@layout/inmobi_banner"/>
+-->
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|center"
+        layout="@layout/adfalcon_banner"/>
+
+
+    <ProgressBar
+        android:id="@+id/report_progress_bar"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/red_600"
+        android:layout_gravity="center" />
+</FrameLayout>
