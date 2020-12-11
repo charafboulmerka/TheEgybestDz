@@ -12,14 +12,6 @@
             android:id="@+id/toolbar"
             layout="@layout/app_bar_layout" />
 
-        <androidx.core.widget.NestedScrollView
-            android:id="@+id/nested_content"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:clipToPadding="false"
-            android:layout_weight="1"
-            android:scrollbars="vertical"
-            android:scrollingCache="true">
 
 
             <LinearLayout
@@ -41,7 +33,7 @@
 
                     <EditText
                         android:layout_weight="1"
-                        android:id="@+id/search_text"
+                        android:id="@+id/edit_search_text"
                         style="@style/EditText.Flat.Grey"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -64,6 +56,63 @@
 
 
                 </LinearLayout>
+                <RadioGroup
+                    android:id="@+id/mRadioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/radioMovie"
+                        android:checked="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="50dp"
+                        android:text="فيلم"/>
+                    <RadioButton
+                        android:id="@+id/radioSerie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مسلسل"/>
+                </RadioGroup>
+
+
+                <Button
+                    android:id="@+id/btn_request_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:background="@drawable/orange_btn_effects"
+                    android:text="البحث"
+                    android:textSize="21dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/fast_result_label"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="2dp"
+                    android:text="نتائج البحث"/>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/mRec_movies_series"
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:scrollbars="vertical"
+                    android:scrollingCache="true"
+                    android:layout_height="wrap_content" />
+
+                <ProgressBar
+                    android:id="@+id/mProgressBar_Search"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
 
 
 
@@ -236,8 +285,9 @@
                     android:layout_marginTop="5dp"
                     android:orientation="vertical">
 
-                    <com.mawsome20.aflam20.widget.RangeSeekBar
+                    <com.mawsome20.aflam.widget.RangeSeekBar
                         android:id="@+id/range_seek_bar"
+                        android:visibility="gone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:bar_color="@color/grey_20"
@@ -251,6 +301,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:visibility="gone"
                         android:orientation="horizontal">
 
                         <TextView
@@ -309,14 +360,7 @@
                         android:textColor="@color/white" />
 
                 </LinearLayout>
-                <TextView
-                    android:id="@+id/fast_result_label"
-                    android:visibility="gone"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:layout_margin="2dp"
-                    android:text="نتائج البحث"/>
+
 
                 <LinearLayout
                     android:id="@+id/fast_movie_layout"
@@ -370,7 +414,6 @@
 
 
 
-        </androidx.core.widget.NestedScrollView>
 
     <include layout="@layout/adfalcon_banner"/>
     <include layout="@layout/startapp_banner"/>

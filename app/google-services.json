@@ -1,42 +1,104 @@
 {
   "project_info": {
-    "project_number": "673981273837",
-    "firebase_url": "https://theegybest-dz-38afa.firebaseio.com",
-    "project_id": "theegybest-dz-38afa",
-    "storage_bucket": "theegybest-dz-38afa.appspot.com"
+    "project_number": "1090592569413",
+    "firebase_url": "https://moviesapp-780f8.firebaseio.com",
+    "project_id": "moviesapp-780f8",
+    "storage_bucket": "moviesapp-780f8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:673981273837:android:5808cf1310ba7939f45ee4",
+        "mobilesdk_app_id": "1:1090592569413:android:824d86f36af7ef14b98b2c",
         "android_client_info": {
-          "package_name": "com.mawsome20.aflam20"
+          "package_name": "com.mawsome20.aflam"
         }
       },
       "oauth_client": [
         {
-          "client_id": "673981273837-r1dple02pinieag4pdco9mka16j5q842.apps.googleusercontent.com",
+          "client_id": "1090592569413-e887pnric81miqnq3k9djld6lb3e5ssl.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.mawsome20.aflam20",
+            "package_name": "com.mawsome20.aflam",
             "certificate_hash": "e50f5886d3508426e14bfc9e2d47a3bfc3f6234e"
           }
         },
         {
-          "client_id": "673981273837-6ob3c4sah800kom0jlasd4tc327fkphl.apps.googleusercontent.com",
+          "client_id": "1090592569413-ok6dhmqgsrdfvias496kac4lt869p476.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mawsome20.aflam",
+            "certificate_hash": "a38c71b81dc18d8d71ae3048dc43a4ff6688b2e7"
+          }
+        },
+        {
+          "client_id": "1090592569413-pfidvurg5g96h6u1ier9h0cfq6at4fvv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mawsome20.aflam",
+            "certificate_hash": "68c48321077c1b17823ec72143021b5a2a7289c1"
+          }
+        },
+        {
+          "client_id": "1090592569413-ticrkoipbib095cs25b9m8o9cf6a1a02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mawsome20.aflam",
+            "certificate_hash": "a17ae1e4e4f5aa00008da6b0a659da583c7b5b3e"
+          }
+        },
+        {
+          "client_id": "1090592569413-dh9nd82oeppipvb99do59h86g9plo1va.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAHYZ171FeMfBpW6K-1W8d0j5fUmOo7pM8"
+          "current_key": "AIzaSyDlvh2cBvXh0TU0ow9hIBOaXMn5v-hFP7M"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "673981273837-6ob3c4sah800kom0jlasd4tc327fkphl.apps.googleusercontent.com",
+              "client_id": "1090592569413-dh9nd82oeppipvb99do59h86g9plo1va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7859085277476660~7765992266"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090592569413:android:9af15a93fc0d39ebb98b2c",
+        "android_client_info": {
+          "package_name": "com.theegybest.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090592569413-pb812s3ap4uuu5108ncqrn4q4vq6130c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theegybest.admin",
+            "certificate_hash": "e50f5886d3508426e14bfc9e2d47a3bfc3f6234e"
+          }
+        },
+        {
+          "client_id": "1090592569413-dh9nd82oeppipvb99do59h86g9plo1va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlvh2cBvXh0TU0ow9hIBOaXMn5v-hFP7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090592569413-dh9nd82oeppipvb99do59h86g9plo1va.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

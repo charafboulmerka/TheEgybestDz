@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.mawsome20.aflam20"
+    package="com.mawsome20.aflam"
     tools:ignore="MissingLeanbackLauncher">
 
 
@@ -26,7 +26,7 @@
     <!--android:hardwareAccelerated="true"-->
 
     <application
-        android:name="com.mawsome20.aflam20.utils.MyAppClass"
+        android:name="com.mawsome20.aflam.utils.MyAppClass"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -40,12 +40,12 @@
             android:name="com.startapp.sdk.RETURN_ADS_ENABLED"
             android:value="false" />
 
-        <activity android:name="com.mawsome20.aflam20.SearchActivity" />
-        <activity android:name="com.mawsome20.aflam20.FirebaseSignUpActivity" />
+        <activity android:name="com.mawsome20.aflam.SearchActivity" />
+        <activity android:name="com.mawsome20.aflam.FirebaseSignUpActivity" />
 
 
         <activity
-            android:name="com.mawsome20.aflam20.WebViewActivity" />
+            android:name="com.mawsome20.aflam.WebViewActivity" />
         <meta-data
             android:name="firebase_performance_logcat_enabled"
             android:value="true" />
@@ -66,45 +66,45 @@
             android:value="@string/facebook_application_id" />
 
         <activity
-            android:name="com.mawsome20.aflam20.TermsActivity"
+            android:name="com.mawsome20.aflam.TermsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.mawsome20.aflam20.ReplyActivity"
+            android:name="com.mawsome20.aflam.ReplyActivity"
             android:label="@string/title_activity_reply"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.mawsome20.aflam20.ProfileActivity"
+            android:name="com.mawsome20.aflam.ProfileActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.mawsome20.aflam20.PassResetActivity"
+            android:name="com.mawsome20.aflam.PassResetActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.mawsome20.aflam20.SignUpActivity"
+            android:name="com.mawsome20.aflam.SignUpActivity"
             android:windowSoftInputMode="adjustResize|stateHidden"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.mawsome20.aflam20.LoginActivity"
+            android:name="com.mawsome20.aflam.LoginActivity"
             android:windowSoftInputMode="adjustResize|stateHidden"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.mawsome20.aflam20.DetailsActivity"
+            android:name="com.mawsome20.aflam.DetailsActivity"
             android:configChanges= 	"keyboard|keyboardHidden|orientation|uiMode|screenLayout|screenSize|smallestScreenSize"
             android:label="@string/title_activity_details"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- android:configChanges="screenLayout|screenSize|orientation" -->
         <activity
-            android:name="com.mawsome20.aflam20.MainActivity"
+            android:name="com.mawsome20.aflam.MainActivity"
             android:configChanges= 	"keyboard|keyboardHidden|orientation|uiMode|screenLayout|screenSize|smallestScreenSize"
             android:theme="@style/AppTheme.Nobar"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.mawsome20.aflam20.SettingsActivity"
+            android:name="com.mawsome20.aflam.SettingsActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.mawsome20.aflam20.SplashScreenActivity"
+            android:name="com.mawsome20.aflam.SplashScreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -114,7 +114,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.mawsome20.aflam20.itemByGenreAndCategory"
+            android:name="com.mawsome20.aflam.itemByGenreAndCategory"
             android:label="@string/title_activity_item_show"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />

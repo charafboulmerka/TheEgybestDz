@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.noqoush.adfalcon.android.sdk:adfalcon-sdk:5.2.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8221d6ee7fd8b40ac399b157aad83e3/jetified-adfalcon-sdk-5.2.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8221d6ee7fd8b40ac399b157aad83e3/jetified-adfalcon-sdk-5.2.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8221d6ee7fd8b40ac399b157aad83e3/jetified-adfalcon-sdk-5.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8808f0771f860dc3d1c614d4402c988/jetified-adfalcon-sdk-5.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8808f0771f860dc3d1c614d4402c988/jetified-adfalcon-sdk-5.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8808f0771f860dc3d1c614d4402c988/jetified-adfalcon-sdk-5.2.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

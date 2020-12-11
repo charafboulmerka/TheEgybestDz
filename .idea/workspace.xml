@@ -2,21 +2,240 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel" />
+      </config>
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0e1080a-8350-4dda-a7c8-e86e4e0be8ad" name="Default Changelist" comment="trying to push" />
+    <list default="true" id="f0e1080a-8350-4dda-a7c8-e86e4e0be8ad" name="Default Changelist" comment="trying to push">
+      <change afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/release/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/SearchActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/All_MoviesSeriesSearchAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/api_inerfaces/CategoryApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/api_inerfaces/GenreApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/api_inerfaces/MovieApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/api_inerfaces/SerieApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/itemByGenreAndCategory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/new_conception/models/readMovieSerieJson.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_work_work_runtime_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_work_work_runtime_1_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_installreferrer_installreferrer_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_installreferrer_installreferrer_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crystal_crystalrangeseekbar_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crystal_crystalrangeseekbar_1_1_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_daimajia_androidanimations_library_2_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_daimajia_androidanimations_library_2_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_audience_network_sdk_5_9_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_audience_network_sdk_5_9_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_applinks_5_15_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_applinks_5_15_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_common_5_15_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_common_5_15_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_core_5_15_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_core_5_15_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_login_5_15_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_login_5_15_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_share_5_15_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_share_5_15_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_shimmer_shimmer_0_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_shimmer_shimmer_0_4_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_Chrisvin_RubberPicker_v1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_Chrisvin_RubberPicker_v1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_Flutterwave_rave_android_1_0_39_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_Flutterwave_rave_android_1_0_39_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_HaarigerHarald_android_youtubeExtractor_master_SNAPSHOT_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_HaarigerHarald_android_youtubeExtractor_master_SNAPSHOT_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_JakeWharton_ViewPagerIndicator_2_4_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_JakeWharton_ViewPagerIndicator_2_4_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_Jay_Goo_RangeSeekBar_v3_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_Jay_Goo_RangeSeekBar_v3_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_armcha_SpaceNavigationView_1_6_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_armcha_SpaceNavigationView_1_6_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_8_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_8_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_8_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_8_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_ixiDev_GDPRChecker_v0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_ixiDev_GDPRChecker_v0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_volsahin_bottomify_navigation_view_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_volsahin_bottomify_navigation_view_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_ads_consent_consent_library_1_0_8_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_ads_consent_consent_library_1_0_8_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_exoplayer_exoplayer_core_2_11_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_exoplayer_exoplayer_core_2_11_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_exoplayer_extension_cast_2_7_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_exoplayer_extension_cast_2_7_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_exoplayer_extension_rtmp_2_7_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_exoplayer_extension_rtmp_2_7_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_flexbox_0_3_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_flexbox_0_3_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_19_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_19_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_11_4_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_11_4_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_15_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_15_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_framework_11_4_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_framework_11_4_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_framework_15_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_framework_15_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_libraries_cast_companionlibrary_ccl_2_8_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_libraries_cast_companionlibrary_ccl_2_8_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_19_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_19_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_components_16_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_components_16_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_functions_19_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_functions_19_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_20_1_6_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_20_1_6_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hootsuite_android_nachos_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hootsuite_android_nachos_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_inmobi_monetization_inmobi_ads_9_0_7_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_inmobi_monetization_inmobi_ads_9_0_7_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_makeramen_roundedimageview_2_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_makeramen_roundedimageview_2_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mikhaellopez_circularimageview_3_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mikhaellopez_circularimageview_3_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_noqoush_adfalcon_android_sdk_adfalcon_sdk_5_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_noqoush_adfalcon_android_sdk_adfalcon_sdk_5_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_onesignal_OneSignal_3_13_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_onesignal_OneSignal_3_13_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_startapp_inapp_sdk_4_3_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_startapp_inapp_sdk_4_3_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jp_wasabeef_picasso_transformations_2_2_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jp_wasabeef_picasso_transformations_2_2_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mawsome20/aflam20/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mawsome20/aflam/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/DetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/DetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/FirebaseSignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/FirebaseSignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/NotificationClickHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/NotificationClickHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/PassResetActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/PassResetActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/ProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/ProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/ReplyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/ReplyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/SearchActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/SettingsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/SettingsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/SignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/SignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/SplashScreenActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/SplashScreenActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/TermsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/TermsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/WebViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/WebViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/All_MoviesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/All_MoviesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/All_MoviesSeriesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/All_MoviesSeriesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/All_SeriesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/All_SeriesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/CountryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/CountryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/DownloadAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/DownloadAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/EpisodeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/EpisodeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/GenreAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/GenreCategoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/GenreHomeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/GenreHomeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/HomePageMoviesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/HomePageMoviesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/HomePageSeriesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/HomePageSeriesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/NavigationAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/NavigationAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/NavigationAdapter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/NavigationAdapter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/PackageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/PackageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/SearchAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/SearchAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/SearchGenreAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/SearchGenreAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/SeriesServerApater.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/SeriesServerApater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/ServerApater.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/ServerApater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/SliderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/SliderAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/need_later/CastCrewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/need_later/CastCrewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/need_later/CommentsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/need_later/CommentsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/need_later/DownloadHistoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/need_later/DownloadHistoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/need_later/FileDownloadAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/need_later/FileDownloadAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/adapters/need_later/ReplyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/adapters/need_later/ReplyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/fragments/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/fragments/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/fragments/MoviesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/fragments/MoviesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/fragments/ReportsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/fragments/ReportsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/fragments/TvSeriesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/fragments/TvSeriesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/itemByGenreAndCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/listener/OnItemClickLIstener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/listener/OnItemClickLIstener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/CastCrew.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/CastCrew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/CommonModels.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/CommonModels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/DownloadInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/DownloadInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/EpiModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/EpiModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/EpisodeMultipleServers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/EpisodeMultipleServers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/GenreModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/GenreModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/GetCommentsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/GetCommentsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/HomeContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/HomeContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/NavigationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/NavigationModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/PostCommentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/PostCommentModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/SubtitleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/SubtitleModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/VideoContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/VideoContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/VideoFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/VideoFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/Work.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/home_content/AllCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/home_content/AllCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/home_content/AllGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/home_content/AllGenre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/home_content/FeaturedTvChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/home_content/FeaturedTvChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/home_content/FeaturesGenreAndMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/home_content/FeaturesGenreAndMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/home_content/HomeContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/home_content/HomeContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/home_content/LatestMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/home_content/LatestMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/home_content/LatestTvseries.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/home_content/LatestTvseries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/home_content/Slide.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/home_content/Slide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/home_content/Slider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/home_content/Slider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/home_content/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/home_content/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/reports/issue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/reports/issue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/reports/reportMovie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/reports/reportMovie.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/reports/requestAddMovie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/reports/requestAddMovie.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/reports/sugesstion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/reports/sugesstion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/Cast.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/Cast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/CastAndCrew.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/CastAndCrew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/DownloadLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/DownloadLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/Episode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/Episode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/RelatedMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/RelatedMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/Season.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/SingleDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/SingleDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/Subtitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/Subtitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/models/single_details/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/models/single_details/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/nav_fragments/CountryFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/nav_fragments/CategoriesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/nav_fragments/FavoriteFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/nav_fragments/FavoriteFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/nav_fragments/GenreFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/nav_fragments/GenreFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/nav_fragments/MainHomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/nav_fragments/MainHomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/ActiveStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/ActiveStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/ActiveSubscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/ActiveSubscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/AdsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/AdsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/AllPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/AllPackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/ApkUpdateInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/ApkUpdateInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/Channel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/Channel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/CommonModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/CommonModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/Coupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/Coupon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/CouponDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/CouponDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/FavoriteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/FavoriteModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/InactiveSubscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/InactiveSubscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/LiveTvCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/LiveTvCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/Package.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/PasswordReset.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/PasswordReset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/PaymentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/PaymentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/RadioCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/RadioCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/RadioModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/RadioModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/ResponseStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/ResponseStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/SearchModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/SearchModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/SubscriptionHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/SubscriptionHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/TvCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/TvCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/TvChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/TvChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/TvConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/TvConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/TvModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/TvModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/network/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/network/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/new_conception/models/Config.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/new_conception/models/Config.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/new_conception/models/Movies.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/new_conception/models/Movies.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/new_conception/models/Seasons.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/new_conception/models/Seasons.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/new_conception/models/Series.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/new_conception/models/Series.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/new_conception/models/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/new_conception/models/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/new_conception/models/episodes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/new_conception/models/episodes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/new_conception/models/genres.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/new_conception/models/genres.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/new_conception/models/mix_movies_series.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/new_conception/models/mix_movies_series.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/new_conception/models/strm_link.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/new_conception/models/strm_link.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/service/DownloadWorkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/service/DownloadWorkManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/service/LiveDataHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/service/LiveDataHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/ApiResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/ApiResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/HidingScrollListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/HidingScrollListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/ItemAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/ItemAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/MyAppClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/MyAppClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/NestedScroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/NestedScroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/NetworkInst.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/NetworkInst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/PreferenceUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/PreferenceUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/RoundedBackgroundSpan.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/RoundedBackgroundSpan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/SpacingItemDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/SpacingItemDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/ToastMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/ToastMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/VerticalSeekBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/VerticalSeekBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/VolleySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/VolleySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/ads/BannerAds.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/ads/BannerAds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/utils/ads/PopUpAds.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/utils/ads/PopUpAds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/widget/RangeSeekBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/widget/RangeSeekBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/widget/ViewLoadingDotsFade.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/widget/ViewLoadingDotsFade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/mawsome20/aflam20/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/mawsome20/aflam/ExampleUnitTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="KELQY19528048884" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -39,14 +258,16 @@
       <list>
         <option value="layoutResourceFile_vertical" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="EXPORT_PRIVATE_KEY" value="false" />
-    <option name="KEY_STORE_PATH" value="C:\Users\CHARAF\Desktop\THE_EGYBEST\new_key.jks" />
+    <option name="KEY_STORE_PATH" value="C:\Users\CHARAF\Desktop\TheEgybestDz\new_key.jks" />
     <option name="KEY_ALIAS" value="key0" />
     <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,20 +285,32 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="app" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="KELQY19528048884" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-23T18:10:34.737Z" />
-    <property name="ExportApk.ApkPath" value="C:\Users\CHARAF\Desktop\THE_EGYBEST\app" />
+    <property name="ExportApk.ApkPath" value="C:\Users\CHARAF\Desktop\TheEgybestDz\app" />
     <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.mawsome20.aflam.api_inerfaces" />
+      <recent name="com.mawsome20.aflam" />
+    </key>
     <key name="android.template.packageName">
       <recent name="com.mawsome20" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.mawsome20.aflam.api_inerfaces" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mawsome20.aflam.adapters" />
       <recent name="com.mawsome20.aflam20.adapters" />
     </key>
   </component>
@@ -185,54 +418,78 @@
     <option name="LAST_COMMIT_MESSAGE" value="trying to push" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="474" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1600883410262">
+    <state x="474" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1607378258902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="474" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1600883410262" />
+    <state x="474" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607378258902" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607424695821">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1607424695821" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601145904684">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601145904684" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601219737563">
+    <state x="458" y="0" width="452" height="688" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1607420628858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601219737563" />
-    <state x="543" y="257" key="Github.ShareDialog" timestamp="1601219918617">
+    <state x="458" y="0" width="452" height="688" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607420628858" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1607430871753">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="543" y="257" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1601219918617" />
-    <state width="1306" height="313" key="GridCell.Tab.0.bottom" timestamp="1601219420268">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607430871753" />
+    <state x="543" y="257" key="Github.ShareDialog" timestamp="1607684936977">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="313" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601219420268" />
-    <state width="1306" height="313" key="GridCell.Tab.0.center" timestamp="1601219420268">
+    <state x="543" y="257" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1607684936977" />
+    <state width="1306" height="361" key="GridCell.Tab.0.bottom" timestamp="1607511405598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="313" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601219420268" />
-    <state width="1306" height="313" key="GridCell.Tab.0.left" timestamp="1601219420268">
+    <state width="1306" height="361" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607511405598" />
+    <state width="1306" height="361" key="GridCell.Tab.0.center" timestamp="1607511405598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="313" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601219420268" />
-    <state width="1306" height="313" key="GridCell.Tab.0.right" timestamp="1601219420268">
+    <state width="1306" height="361" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607511405598" />
+    <state width="1306" height="361" key="GridCell.Tab.0.left" timestamp="1607511405597">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="313" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601219420268" />
+    <state width="1306" height="361" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607511405597" />
+    <state width="1306" height="361" key="GridCell.Tab.0.right" timestamp="1607511405598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="361" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607511405598" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1607254189493">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607254189493" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1607254189493">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607254189493" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1607254189493">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607254189493" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1607254189493">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607254189493" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1601219901757">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601219901757" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1600964738453">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1607507614889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600964738453" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1607507614889" />
     <state x="424" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600970219341">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="424" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1600970219341" />
-    <state x="379" y="95" width="921" height="536" key="find.popup" timestamp="1601213868842">
+    <state x="379" y="95" width="921" height="536" key="find.popup" timestamp="1607636650893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="95" width="921" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1601213868842" />
+    <state x="379" y="95" width="921" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1607636650893" />
     <state x="376" y="155" key="git4idea.merge.GitPullDialog" timestamp="1599844865468">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -241,10 +498,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1600604751715" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1600800991329">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1601380525524">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600800991329" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601380525524" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600365332628">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -254,13 +511,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/MainActivity.java</url>
-          <line>480</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam20/DetailsActivity.java</url>
-          <line>1386</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/mawsome20/aflam/DetailsActivity.java</url>
+          <line>1387</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
